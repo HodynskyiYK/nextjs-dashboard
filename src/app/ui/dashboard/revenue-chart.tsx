@@ -10,8 +10,8 @@ import {Revenue} from '@/src/app/lib/definitions';
 // https://airbnb.io/visx/
 
 export default async function RevenueChart({
-                                               revenue,
-                                           }: {
+   revenue,
+}: {
     revenue: Revenue[];
 }) {
     const chartHeight = 350;
