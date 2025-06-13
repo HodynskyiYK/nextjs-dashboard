@@ -4,6 +4,11 @@ import RevenueChart from '@/src/app/ui/dashboard/revenue-chart'
 import LatestInvoices from '@/src/app/ui/dashboard/latest-invoices'
 import CardWrapper from '@/src/app/ui/dashboard/cards'
 import {CardsSkeleton, LatestInvoicesSkeleton, RevenueChartSkeleton} from '@/src/app/ui/skeletons'
+import {Metadata} from 'next'
+
+export const metadata: Metadata = {
+    title: 'Dashboard'
+}
 
 
 const Dashboard = async () => {
